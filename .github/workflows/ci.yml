@@ -1,5 +1,6 @@
 name: CI
 # See https://help.github.com/en/actions/reference/events-that-trigger-workflows
+#
 on: [push, pull_request]
 jobs:
   clippy_check:
